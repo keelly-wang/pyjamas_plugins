@@ -1,5 +1,6 @@
 """
 Track polylines: select polylines from the current timepoint and track them through the indicated time range using local cross-correlation flow. Each set of tracked polylines is saved as a separate annotation file in the indicated output folder.
+Last tested on Python 3.8, PyJAMAS 2020.8.3
 """
 from pyjamas.rplugins.base import PJSPluginABC
 from PyQt5 import QtCore, QtWidgets, QtGui
